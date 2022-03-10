@@ -24,7 +24,7 @@ a{
 .container{
     width: 60%;
     border: 5px solid brown;
-    height: 1000px;
+    height: 2000px;
     margin: 10em auto;
 }
 
@@ -172,7 +172,7 @@ i{
 .section-plan{
     width: 100%;
     border: 4px solid green;
-    height: 1000px;
+    height: 2000px;
 }
 
 .title-section{
@@ -185,21 +185,22 @@ i{
 .title-plan{
     width: 100%;
     height: 30px;
-    border: 2px solid gray;
+    border: 1px solid lightgray;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .radio{
     width: 100%;
     height: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: .8em;
 }
 
 .col-section{
     margin: 0 10px;
-    height: 500px;
-    border: 2px solid gray;
+    height: 800px;
+    border: 1px solid lightgray;
     width: calc(100% / 3 - 20px);
     margin-top: 2em;
 }
@@ -212,10 +213,42 @@ i{
 }
 
 .title-plan i{
-    font-size: 20px;
     line-height: 5px;
 }
 
+i{
+    font-size: 20px;
+}
 span{
     font-size: .8em;
+}
+
+.description{
+    margin-left: 1em;
+}
+
+.description h3{
+    margin-bottom: 1em;
+}
+
+.description p{
+    font-size: .8em;
+    margin-bottom: .7em;
+}
+
+.month{
+    color: gray;
+}
+
+.description .menu-btn{
+    margin-top: 3em;
+}
+
+.description  p a{
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+.list-description{
+    margin-top: 3em;
 }
