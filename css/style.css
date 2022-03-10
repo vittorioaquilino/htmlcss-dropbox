@@ -21,10 +21,21 @@ a{
     text-decoration: none;
 }
 
+.container{
+    width: 60%;
+    border: 2px solid brown;
+    height: 100px;
+    margin: 5em auto;
+}
+
+.nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
 .menu{
     line-height: 70px;
     font-size: 1em;
-    /* position: fixed; */
 }
 .menu img{
     vertical-align: middle;
@@ -43,7 +54,7 @@ a{
     color: black;
 }
 
-.menu .menu-btn a{
+.menu-btn a{
     color: white;
 }
 
@@ -63,6 +74,7 @@ a{
 /* HEADER */
 header{
     height: 70px;
+    background-color: white;
 }
 
 .col{
@@ -84,15 +96,14 @@ header{
 .menu-btn{
     display: inline-block;
     height: 50px;
-    margin-left: 2em;
 }
 
+.menu .btn-blue{
+    margin-left: 2em;
+}
 /* buttons */
 .btn-blue{
     background-color: #0061FF;
-}
-
-.btn-small{
     padding: .4em .8em;
     font-size: .9em;
 }
@@ -101,34 +112,52 @@ header{
 /* banner */
 .banner{
     background-color: #B4D0E7;
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
 .banner-content{
     width: 80%;
     margin: 0 auto;
-    text-align: center;
-    color: white;
-    border: 2px solid black;
-    height: 100px;
+    text-align: left;
+    /* border: 2px solid black; */
+    height: 500px;
 }
 
 .banner-title{
     width: 100%;
-    background-color: green;
-    height: 70px;
+    /* border:2px solid green; */
+    /* height: 70px; */
+    margin: 3em 0;
+}
+
+.banner-title h1{
+    font-size: 4em;
 }
 
 .banner-text{
-    width: 30%;
-    background-color: blue;
-    height: 70px;
+    width: 40%;
+    /* border:2px solid blue; */
+    /* height: 150px; */
+    margin-bottom: 1em;
 }
 
 .banner-img{
-    width: 70%;
-    background-color: red;
-    height: 70px;
+    width: 60%;
+    /* border:2px solid red; */
+    /* height: 150px; */
+}
 
+.banner-content .menu-btn{
+    padding-top: 2em;
+}
+
+.banner-content p{
+    padding-top: 1em;
+    font-size: .8em;
+}
+
+i{
+    font-size: 2em;
+    padding-top: .5em; ;
 }
