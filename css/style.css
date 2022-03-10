@@ -23,18 +23,38 @@ a{
 
 .menu{
     /* display: inline-block; */
+    /* height: 70px; */
+    /* background-color: red; */
+    line-height: 70px;
+    font-size: 1em;
+}
+.menu img{
+    vertical-align: middle;
+    margin-left: 1em;
 }
 
 .menu-list{
     display: inline-block;
 }
 
+.menu-list li{
+    margin-left: 3em;
+}
+
 .menu a{
     color: black;
 }
 
+.menu .menu-btn a{
+    color: white;
+}
+
 .menu li{
     display: inline-block;
+}
+
+.menu img{
+    width: 100px;
 }
 
 .clearfix::after{
@@ -44,24 +64,34 @@ a{
 }
 /* HEADER */
 header{
-    height: 70px;
-    background-color: brown;
+    /* height: 70px; */
 }
 
 .col-left{
     width: 40%;
     height: 70px;
     float: left;
-    background-color: aquamarine;
 }
 
 .col-right{
     width: 40%;
     height: 70px;
     float: right;
-    background-color: aquamarine;
+    text-align: left;
 }
 
-.menu img{
-    width: 100px;
+.menu-btn{
+    display: inline-block;
+    height: 50px;
+    margin-left: 2em;
+}
+
+/* buttons */
+.btn-blue{
+    background-color: #0061FF;
+}
+
+.btn-small{
+    padding: .4em .8em;
+    font-size: .9em;
 }
