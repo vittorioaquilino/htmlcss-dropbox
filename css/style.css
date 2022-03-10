@@ -4,3 +4,64 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    /* display: inline-block; */
+}
+
+.menu-list{
+    display: inline-block;
+}
+
+.menu a{
+    color: black;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* HEADER */
+header{
+    height: 70px;
+    background-color: brown;
+}
+
+.col-left{
+    width: 40%;
+    height: 70px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.col-right{
+    width: 40%;
+    height: 70px;
+    float: right;
+    background-color: aquamarine;
+}
+
+.menu img{
+    width: 100px;
+}
