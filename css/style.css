@@ -22,11 +22,9 @@ a{
 }
 
 .menu{
-    /* display: inline-block; */
-    /* height: 70px; */
-    /* background-color: red; */
     line-height: 70px;
     font-size: 1em;
+    /* position: fixed; */
 }
 .menu img{
     vertical-align: middle;
@@ -64,20 +62,23 @@ a{
 }
 /* HEADER */
 header{
-    /* height: 70px; */
+    height: 70px;
+}
+
+.col{
+    float: left;
 }
 
 .col-left{
     width: 40%;
     height: 70px;
-    float: left;
 }
 
 .col-right{
     width: 40%;
     height: 70px;
-    float: right;
     text-align: left;
+    float: right;
 }
 
 .menu-btn{
@@ -94,4 +95,40 @@ header{
 .btn-small{
     padding: .4em .8em;
     font-size: .9em;
+}
+
+/* MAIN */
+/* banner */
+.banner{
+    background-color: #B4D0E7;
+    height: 500px;
+    width: 100%;
+}
+
+.banner-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    height: 100px;
+}
+
+.banner-title{
+    width: 100%;
+    background-color: green;
+    height: 70px;
+}
+
+.banner-text{
+    width: 30%;
+    background-color: blue;
+    height: 70px;
+}
+
+.banner-img{
+    width: 70%;
+    background-color: red;
+    height: 70px;
+
 }
