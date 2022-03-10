@@ -161,3 +161,10 @@ i{
     font-size: 2em;
     padding-top: .5em; ;
 }
+
+/* section-plan */
+.section-plan{
+    width: 100%;
+    border: 2px solid green;
+    height: 50px;
+}
