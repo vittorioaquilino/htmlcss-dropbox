@@ -34,7 +34,7 @@ a{
 .container-2{
     width: 100%;
     border: 5px solid fuchsia;
-    height: 500px;
+    height: 800px;
 }
 
 .nav{
@@ -87,6 +87,12 @@ a{
     display: table;
     clear: both;
 }
+
+/* .row::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
 /* HEADER */
 header{
     height: 70px;
@@ -374,11 +380,12 @@ span{
 .team h2{
     margin-bottom: .5em;
 }
+
 /* section team */
 .section-team{
     width: 100%;
-    border: 1px solid green;
-    height: 400px;
+    border: 2px solid green;
+    /* height: 500px; */
 }
 
 .team a{
@@ -388,15 +395,79 @@ span{
     font-weight: bold;
 }
 
-.col-team{
-    width: 200px;
-    height: 200px;
-    border: 3px solid red;
+.row{
+    float: left;
+    width: 450px;
+    height: 450px;
+    /* border: 1px solid red; */
 }
 
-.col-team-center{
-    width: calc(100% - 800px);
-    /* height: 500px; */
-    border: 3px solid blue;
+.row-center{
+    width: calc(100% - 900px);
+    height: 450px;
+    /* border: 1px solid blue; */
 }
 
+.team-name{
+    float: left;
+    width: 225px;
+    height: 225px;
+    /* border: 1px solid orange; */
+    line-height: 225px;
+    text-align: center;
+}
+
+.team-name img{
+    width: 100px;
+    vertical-align: middle;
+    color: white;
+}
+
+.section-team img{
+}
+
+/* banner bottom */
+.banner-bottom{
+    width: 100%;
+    background-color: #B4D0E7;
+    height: 300px;
+}
+
+.title-bottom{
+    width: 60%;
+    padding: 7em 15em;
+    font-weight: bold;
+}
+
+/* background-color img */
+#img1{
+    background-color: #A2D39B;
+}
+
+#img2{
+    background-color: #61082B;
+}
+
+#img3{
+    background-color: #0093CE;
+}
+
+#img4{
+    background-color: #FF1C1C;
+}
+
+#img5{
+    background-color: #D5001F;
+}
+
+#img6{
+    background-color: #B4D0E7;
+}
+
+#img7{
+    background-color: #0D2481;
+}
+
+#img8{
+    background-color: #FFD830;
+}
