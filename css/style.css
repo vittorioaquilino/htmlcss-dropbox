@@ -61,6 +61,10 @@ a{
     color: white;
 }
 
+.partner-btn a{
+    color: black;
+}
+
 .menu li{
     display: inline-block;
 }
@@ -102,6 +106,13 @@ header{
     font-size: .8em;
 }
 
+.partner-btn{
+    display: inline-block;
+    height: 50px;
+    font-size: .8em;
+    margin-top: 2em;
+}
+
 .menu .btn-blue{
     margin-left: 2em;
 }
@@ -113,6 +124,12 @@ header{
     font-size: .9em;
 }
 
+.btn-white{
+    background-color: white;
+    border: 1px solid black;
+    padding: .4em .8em;
+    font-size: .9em;
+}
 /* MAIN */
 /* banner */
 .banner{
@@ -284,17 +301,17 @@ span{
 .section-partner{
     width: 100%;
     /* height: 300px; */
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .partner-img{
     width: 60%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .partner-text{
     width: 40%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     margin-top: 2em;
     padding-left: 2em;
 }
