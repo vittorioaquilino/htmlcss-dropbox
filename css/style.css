@@ -24,8 +24,17 @@ a{
 .container{
     width: 60%;
     border: 5px solid brown;
-    height: 3000px;
-    margin: 10em auto;
+    /* height: 3000px; */
+    margin: 2em auto;
+    /* margin-top: 10em; */
+    /* margin: auto; */
+    /* margin-bottom: 2em; */
+}
+
+.container-2{
+    width: 100%;
+    border: 5px solid fuchsia;
+    height: 500px;
 }
 
 .nav{
@@ -334,7 +343,7 @@ span{
     width: calc(100% / 3);
     /* height: 500px; */
     /* border: 1px solid blue; */
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .operation-img{
@@ -362,3 +371,13 @@ span{
     color: black;
 }
 
+.team{
+    margin-bottom: .5em;
+}
+
+.section-team a{
+    text-decoration: underline;
+    color: #0061FF;
+    font-size: .8em;
+    font-weight: bold;
+}
