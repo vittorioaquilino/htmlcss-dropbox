@@ -32,6 +32,7 @@ a{
     background-color: white;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 .menu{
@@ -98,11 +99,13 @@ header{
 .menu-btn{
     display: inline-block;
     height: 50px;
+    font-size: .8em;
 }
 
 .menu .btn-blue{
     margin-left: 2em;
 }
+
 /* buttons */
 .btn-blue{
     background-color: #0061FF;
@@ -176,8 +179,9 @@ i{
 /* section-plan */
 .section-plan{
     width: 100%;
-    border: 4px solid green;
-    height: 2000px;
+    margin-bottom: 7em;
+    /* border: 4px solid green;
+    height: 2000px; */
 }
 
 .title-section{
@@ -242,10 +246,6 @@ span{
     margin-bottom: .7em;
 }
 
-.description span{
-    margin-bottom: 1em;
-}
-
 .month{
     color: gray;
 }
@@ -267,6 +267,39 @@ span{
     color: #0061FF;
 }
 
+.enterprise{
+    display: inline-block;
+}
+
+.section-bottom .menu-btn{
+    position: relative;
+    left: 550px;
+}
+
 #bold{
     font-weight: bold;
+}
+
+/* section partner */
+.section-partner{
+    width: 100%;
+    /* height: 300px; */
+    border: 2px solid green;
+}
+
+.partner-img{
+    width: 60%;
+    border: 1px solid blue;
+}
+
+.partner-text{
+    width: 40%;
+    border: 1px solid yellow;
+    margin-top: 2em;
+    padding-left: 2em;
+}
+
+.section-partner p{
+    font-size: .8em;
+    margin-top: 2em;
 }
