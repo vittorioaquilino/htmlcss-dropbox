@@ -24,7 +24,7 @@ a{
 .container{
     width: 60%;
     border: 5px solid brown;
-    height: 2000px;
+    height: 3000px;
     margin: 10em auto;
 }
 
@@ -204,7 +204,7 @@ i{
 .title-section{
     width: 100%;
     /* border: 2px solid blue; */
-    height: 50px;
+    /* height: 50px; */
     margin-bottom: 2em;
 }
 
@@ -300,6 +300,7 @@ span{
 /* section partner */
 .section-partner{
     width: 100%;
+    margin-bottom: 5em;
     /* height: 300px; */
     /* border: 2px solid green; */
 }
@@ -319,4 +320,30 @@ span{
 .section-partner p{
     font-size: .8em;
     margin-top: 2em;
+}
+
+/* section operation */
+.section-operation{
+    width: 100%;
+    height: 900px;
+    border: 2px solid green;
+}
+
+.col-operation{
+    width: calc(100% / 3);
+    /* height: 500px; */
+    border: 1px solid blue;
+}
+
+
+.operation-img{
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+}
+
+.operation-text{
+    width: 100%;
+    height: 150px;
+    background-color: blanchedalmond;
 }
