@@ -509,16 +509,25 @@ span{
 }
 
 /* section faq */
+.section-faq{
+    margin-bottom: 4em;
+}
+
 .section-faq h2{
     margin-bottom: 1.5em;
 }
 
 .list-faq li{
-    border-top: 1px solid lightgray;
+    /* border-top: 1px solid lightgray; */
+    border-bottom: 1px solid lightgray;
     /* margin: 2em auto; */
     font-weight: bold;
     font-size: .8em;
     padding: 2em 0;
+}
+
+.list-faq li:first-of-type{
+    border-top: 1px solid lightgray;
 }
 
 .list-faq i{
