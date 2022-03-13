@@ -520,3 +520,9 @@ span{
     font-size: .8em;
     padding: 2em 0;
 }
+
+.list-faq i{
+    font-size: .8em;
+    float: right;
+    margin-right: 2.5em;
+}
