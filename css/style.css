@@ -548,6 +548,10 @@ footer .container{
     height: 400px;
 }
 
+.footer-list{
+    margin-bottom: 5em;
+}
+
 .col-footer{
     width: calc(100% / 5);
     margin-top: 4em;
@@ -560,4 +564,16 @@ footer .container{
 .col-footer a{
     font-size: .8em;
     color: white;
+}
+
+/* footer language */
+.footer-language{
+    width: 100%;
+     color: gray;
+    font-size: .8em;
+    padding: 2em 0;
+}
+
+.footer-language i{
+    font-size: 1em;
 }
