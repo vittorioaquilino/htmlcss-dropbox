@@ -23,7 +23,7 @@ a{
 
 .container{
     width: 60%;
-    border: 5px solid brown;
+    border: 2px solid brown;
     /* height: 500px; */
     margin: 2em auto;
     /* margin-top: 10em; */
@@ -506,4 +506,17 @@ span{
     position: relative;
     bottom: 30px;
     color: black;
+}
+
+/* section faq */
+.section-faq h2{
+    margin-bottom: 1.5em;
+}
+
+.list-faq li{
+    border-top: 1px solid lightgray;
+    /* margin: 2em auto; */
+    font-weight: bold;
+    font-size: .8em;
+    padding: 2em 0;
 }
