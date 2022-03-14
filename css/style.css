@@ -144,7 +144,7 @@ header{
 .btn-black{
     background-color: white;
     border: 1px solid black;
-    padding: .4em .8em;
+    padding: .8em 1.6em;
     font-size: .9em;
 }
 
@@ -425,6 +425,7 @@ span{
     width: calc(100% - 900px);
     height: 450px;
     background-color: #F5F5F5;
+    overflow: scroll;
     /* border: 1px solid blue; */
 }
 
@@ -462,6 +463,7 @@ span{
 /* background-color img */
 #img1{
     background-color: #A2D39B;
+    border: 10px solid #e1ece1;
 }
 
 #img2{
