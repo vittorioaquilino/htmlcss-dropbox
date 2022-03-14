@@ -254,7 +254,7 @@ i{
 
 .col-section{
     margin: 0 10px;
-    height: 800px;
+    min-height: 950px;
     border: 1px solid lightgray;
     width: calc(100% / 3 - 20px);
     margin-top: 2em;
@@ -263,7 +263,7 @@ i{
 .section-bottom{
     width: calc(100% - 10px);
     margin: 0 auto;
-    height: 200px;
+    min-height: 250px;
     border: 1px solid lightgray;
     margin-top: 2em;
 }
@@ -282,6 +282,10 @@ span{
 
 .description{
     margin-left: 1em;
+}
+
+.description li{
+    margin-bottom: 1em;
 }
 
 .description h3{
