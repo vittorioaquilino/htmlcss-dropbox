@@ -297,6 +297,13 @@ span{
     margin-bottom: .7em;
 }
 
+.line{
+    margin: 30px 0 40px 0;
+    height: 1px;
+    width: 50px;
+    background-color: lightgray;
+}
+
 .month{
     color: gray;
 }
@@ -555,7 +562,7 @@ footer .container{
 }
 
 .footer-list{
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 
 .col-footer{
